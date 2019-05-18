@@ -4,7 +4,9 @@ window.onload = function () {
     let li = document.querySelectorAll('#wiev-object'),
         div = document.querySelector('#map'),
         years = document.querySelectorAll('#years'),
-        img = document.querySelectorAll('img')
+        img = document.querySelectorAll('img'),
+        html = document.querySelector('html'),
+        body = document.querySelector('body')
 
 
     for (i = 0; i < li.length; i++) {
@@ -14,10 +16,10 @@ window.onload = function () {
             if (this.classList.contains('belovo')) {
                 div.innerHTML = '<object type="text/html" data="belovo.html" ></object>'
                 div.style.display = 'block'
-            } else if(this.classList.contains('kemerovo')) {
+            } else if (this.classList.contains('kemerovo')) {
                 div.innerHTML = '<object type="text/html" data="index.html"></object>'
                 div.style.display = 'block'
-            } else if(this.classList.contains('object')) {
+            } else if (this.classList.contains('object')) {
                 div.innerHTML = '<object type="text/html" data="vynogradovsky.html"></object>'
                 div.style.display = 'block'
             }
@@ -50,5 +52,16 @@ window.onload = function () {
     //     })
 
     // }
+
+    function checkIndex() {
+        if (html.classList.contains('index')) {
+            // div.innerHTML = '<div style="position:absolute; top:5px; right:50%;">Hello</div>'
+            div.innerHTML = '<h1 class="object-header">Кемеровская область</h1><div class="navigation-bar"><a href="#openModal" class="objects" id="passport">Паспорт объекта</a><a href="#openModal" class="objects" id="karta">Дорожная карта</a><div id="openModal" class="modalDialog"><div class="modal-container"><a href="#close" title="Закрыть" class="close">X</a><img src="img/vinograd/passport/passVinograd.jpg" class="map-obj pass"></div></div></div><div id="map"><img src="img/map/karta-ko.jpg" alt="" class="map-obj main-map"></div><h1>Привет</h1>'
+            div.style.display = 'block'
+            
+        }
+    }
+
+    checkIndex()
 
 }
