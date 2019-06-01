@@ -11,21 +11,6 @@
 </head>
 
 <body>
-   <!-- <h1 class="object-header">Кемеровская область</h1>
-      <div class="navigation-bar">
-          
-          <a href="#openModal" class="objects" id="passport">Паспорт объекта</a>
-          <a href="#openModal" class="objects" id="karta">Дорожная карта</a>
-  
-          <div id="openModal" class="modalDialog">
-              <div class="modal-container">
-                  <a href="#close" title="Закрыть" class="close">X</a>
-                  <img src="img/vinograd/passport/passVinograd.jpg" class="map-obj pass">
-              </div>
-          </div>
-      </div> -->
-
-
 
    <div class="menu">
 
@@ -37,9 +22,20 @@
       <!-- Меню -->
       <ul class="menu-bar--ul">
 
-         <li class="list"><a href="#">Кемеровская область</a>
+         <li class="list"><a href="#">Экологический стандарт Кузбасса</a>
             <ul class="items">
                <li> <a href="index.html" id="wiev-object" class="kemerovo">Просмотр объекта</a></li>
+               <li> <a href="interactive_map/main.html" class="karta-vod">Карта водопользования</a></li>
+               <li> <a href="#" class="kuzbass2035">Кузбасс 2035</a></li>
+               <li> <a href="strategy.html" class="stratygy2035"> Стратегия угольной отрасли Кузбасса до 2035 года</a></li>
+               <li class="list"><a href="#">Экологический портрет Кузбасса</a>
+                  <ul class="items">
+                     <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                     <li> <a href="drawing1.html" id="wiev-object">Лучшие практики</a></li>
+                     <li> <a href="drawing1.html" id="wiev-object">Красная книга</a></li>
+                     <li> <a href="drawing1.html" id="wiev-object">Водопотребление-сбросы</a></li>
+                  </ul>
+               </li>
             </ul>
          </li>
       </ul>
@@ -353,7 +349,7 @@
                         <li class="list"><a href="#">шахта "Полосухинская"</a>
 
                            <ul class="items">
-                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="drawing1.html" id="wiev-object" class="polosuh">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -361,7 +357,7 @@
                      <ul class="items">
                         <li class="list"><a href="#">шахта "Грамотеинская"</a>
                            <ul class="items">
-                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="drawing1.html" id="wiev-object" class="gramotein">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -606,9 +602,9 @@
                      </ul>
 
                      <ul class="items">
-                        <li class="list"><a href="#">Шахта "Алексиевская" </a>
+                        <li class="list"><a href="#">Шахта "Алексеевская" </a>
                            <ul class="items">
-                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="drawing1.html" id="wiev-object" class="alekceev">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -841,9 +837,9 @@
                   <li class="list"><a href="#">АО Холдинговая компания "СДС - Уголь"</a>
 
                      <ul class="items">
-                        <li class="list"><a href="#">разрез "Черниговец"</a>
+                        <li class="list"><a href="#">разрез "Черниговский"</a>
                            <ul class="items">
-                              <li> <a href="#" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="#" id="wiev-object" class="chernigovec">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -851,7 +847,7 @@
                      <ul class="items">
                         <li class="list"><a href="#">шахта "Южная"</a>
                            <ul class="items">
-                              <li> <a href="#" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="#" id="wiev-object" class="shugnaya">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -889,7 +885,7 @@
                      <ul class="items">
                         <li class="list"><a href="#">шахтоуправление "Майское"</a>
                            <ul class="items">
-                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="drawing1.html" id="wiev-object" class="shumayskoe">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -897,7 +893,7 @@
                      <ul class="items">
                         <li class="list"><a href="#">шахта "Листвяжная"</a>
                            <ul class="items">
-                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                              <li> <a href="drawing1.html" id="wiev-object" class="shlistvyag">Просмотр объекта</a></li>
                            </ul>
                         </li>
                      </ul>
@@ -1016,364 +1012,368 @@
                      <ul class="items">
                         <li class="list"><a href="#">ОФ "Шестаки"</a>
                            <ul class="items">
-                              <li> <a href="drawing1.html id=" wiev-object""Просмотр объекта</a> </li> </ul> </li> </ul>
-                                    <ul class="items">
-                              <li class="list"><a href="#">ОФ "Барзасское товарищество"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
+                              <li> <a href="drawing1.html" id="wiev-object"></a> </li>
                            </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Матюшинская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Киселёвская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО «Разрез "Задубровский Новый" -->
-
-                        <li class="list"><a href="#">ООО «Разрез "Задубровский Новый"</a>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Задубровский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Евтинский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-
-                           <!-- АО "Разрез Инской" -->
-
-                        <li class="list"><a href="#">АО "Разрез Инской"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">шахта "Инская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- Филиал ПМХ-Уголь -->
-
-                        <li class="list"><a href="#">АО "Разрез Инской"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">шахта "Инская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-
-                           <!-- ПАО "Кузбасская топливная компания" -->
-
-                        <li class="list"><a href="#">ПАО "Кузбасская топливная компания"</a>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Виноградовский"</a>
-                                 <ul class="items">
-                                    <li> <a href="vynogradovsky.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Каскад"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Каскад-2"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-
-                           <!-- ООО "Каракан Инвест" -->
-
-                        <li class="list"><a href="#">ООО "Каракан Инвест"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">Разрез "Караканский-Западный"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "ОЭУ Блок №3 Шахта Анжерская-Южная" -->
-
-                        <li class="list"><a href="#">ООО "ОЭУ Блок №3 Шахта Анжерская-Южная"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">шахта "Анжерская-Южная"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- АО "Разрез Октябринский" -->
-
-                        <li class="list"><a href="#">АО "Разрез Октябринский"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Октябринский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Краснобродский Южный" -->
-
-                        <li class="list"><a href="#">ООО "Краснобродский Южный"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Краснобродский-Южный"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Разрез Бунгурский-Северный" -->
-
-                        <li class="list"><a href="#">ООО "Разрез Бунгурский-Северный"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Бунгурский-Северный"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Бунгурская-Северная"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-
-                           <!-- ООО "Ресурс" -->
-
-                        <li class="list"><a href="#">ООО "Ресурс"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Южный"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- АО «Кузнецкая инвестиционно-строительная компания" -->
-
-                        <li class="list"><a href="#">АО «Кузнецкая инвестиционно-строительная компания"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Корчакольский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Инвест-Углесбыт" -->
-
-                        <li class="list"><a href="#">ООО "Инвест-Углесбыт"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Тайбинский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Энергоуголь" -->
-
-                        <li class="list"><a href="#">разрез "Энергоуголь"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Корчакольский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- АО "ТОППРОМ" -->
-
-                        <li class="list"><a href="#">АО "ТОППРОМ"</a>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">шахта "Юбилейная"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Щедрухинская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Тайбинская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Коксовая"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-
-                           <!-- ООО "Разрез Кийзасский" -->
-
-                        <li class="list"><a href="#">ООО "Разрез Кийзасский"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Кийзасский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Управляющая компания "Сибкоул" -->
-
-                        <li class="list"><a href="#">ООО "Управляющая компания "Сибкоул"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Котинский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Разрез Трудармейский южный" -->
-
-                        <li class="list"><a href="#">ООО "Разрез Трудармейский южный"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">разрез "Трудармейский-Южный"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Шахта Тайлепская" -->
-
-                        <li class="list"><a href="#">ООО "Шахта Тайлепская"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">участок открытых горных работ "Тайлепский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО Обогатительная фабрика "Анжерская" -->
-
-                        <li class="list"><a href="#">ООО Обогатительная фабрика "Анжерская"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Анжерская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Обогатительная фабрика "Прокопьевская" -->
-
-                        <li class="list"><a href="#">ООО "Обогатительная фабрика "Прокопьевская"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Прокопьевская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО "Обогатительная фабрика "Красногорская" -->
-
-                        <li class="list"><a href="#">ООО "Обогатительная фабрика "Красногорская"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">ОФ "Красногорская"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО Разрез "Кайчакский-1" -->
-
-                        <li class="list"><a href="#">ООО Разрез "Кайчакский-1"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">Разрез "Кайчакский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                        <li class="list"><a href="#">ООО "Итатуголь"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">Разрез "Итатский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-
-                           <!-- ООО Разрез "Бунгурский" -->
-
-                        <li class="list"><a href="#">ООО Разрез "Бунгурский"</a>
-                           <ul class="items">
-                              <li class="list"><a href="#">Разрез "Бунгурский"</a>
-                                 <ul class="items">
-                                    <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
+                        </li>
                      </ul>
-                  </li>
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Барзасское товарищество"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Матюшинская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Киселёвская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО «Разрез "Задубровский Новый" -->
+
+                  <li class="list"><a href="#">ООО «Разрез "Задубровский Новый"</a>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Задубровский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Евтинский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+
+                     <!-- АО "Разрез Инской" -->
+
+                  <li class="list"><a href="#">АО "Разрез Инской"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">шахта "Инская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- Филиал ПМХ-Уголь -->
+
+                  <li class="list"><a href="#">АО "Разрез Инской"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">шахта "Инская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+
+                     <!-- ПАО "Кузбасская топливная компания" -->
+
+                  <li class="list"><a href="#">ПАО "Кузбасская топливная компания"</a>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Виноградовский"</a>
+                           <ul class="items">
+                              <li> <a href="vynogradovsky.html" id="wiev-object" class="vynogradovsky">Просмотр
+                                    объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Каскад"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Каскад-2"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+
+                     <!-- ООО "Каракан Инвест" -->
+
+                  <li class="list"><a href="#">ООО "Каракан Инвест"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">Разрез "Караканский-Западный"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "ОЭУ Блок №3 Шахта Анжерская-Южная" -->
+
+                  <li class="list"><a href="#">ООО "ОЭУ Блок №3 Шахта Анжерская-Южная"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">шахта "Анжерская-Южная"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- АО "Разрез Октябринский" -->
+
+                  <li class="list"><a href="#">АО "Разрез Октябринский"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Октябринский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Краснобродский Южный" -->
+
+                  <li class="list"><a href="#">ООО "Краснобродский Южный"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Краснобродский-Южный"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Разрез Бунгурский-Северный" -->
+
+                  <li class="list"><a href="#">ООО "Разрез Бунгурский-Северный"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Бунгурский-Северный"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Бунгурская-Северная"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+
+                     <!-- ООО "Ресурс" -->
+
+                  <li class="list"><a href="#">ООО "Ресурс"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Южный"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- АО «Кузнецкая инвестиционно-строительная компания" -->
+
+                  <li class="list"><a href="#">АО «Кузнецкая инвестиционно-строительная компания"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Корчакольский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Инвест-Углесбыт" -->
+
+                  <li class="list"><a href="#">ООО "Инвест-Углесбыт"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Тайбинский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Энергоуголь" -->
+
+                  <li class="list"><a href="#">разрез "Энергоуголь"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Корчакольский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- АО "ТОППРОМ" -->
+
+                  <li class="list"><a href="#">АО "ТОППРОМ"</a>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">шахта "Юбилейная"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Щедрухинская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Тайбинская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Коксовая"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+
+                     <!-- ООО "Разрез Кийзасский" -->
+
+                  <li class="list"><a href="#">ООО "Разрез Кийзасский"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Кийзасский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Управляющая компания "Сибкоул" -->
+
+                  <li class="list"><a href="#">ООО "Управляющая компания "Сибкоул"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Котинский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Разрез Трудармейский южный" -->
+
+                  <li class="list"><a href="#">ООО "Разрез Трудармейский южный"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">разрез "Трудармейский-Южный"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Шахта Тайлепская" -->
+
+                  <li class="list"><a href="#">ООО "Шахта Тайлепская"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">участок открытых горных работ "Тайлепский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО Обогатительная фабрика "Анжерская" -->
+
+                  <li class="list"><a href="#">ООО Обогатительная фабрика "Анжерская"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Анжерская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Обогатительная фабрика "Прокопьевская" -->
+
+                  <li class="list"><a href="#">ООО "Обогатительная фабрика "Прокопьевская"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Прокопьевская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО "Обогатительная фабрика "Красногорская" -->
+
+                  <li class="list"><a href="#">ООО "Обогатительная фабрика "Красногорская"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">ОФ "Красногорская"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО Разрез "Кайчакский-1" -->
+
+                  <li class="list"><a href="#">ООО Разрез "Кайчакский-1"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">Разрез "Кайчакский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                  <li class="list"><a href="#">ООО "Итатуголь"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">Разрез "Итатский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+
+                     <!-- ООО Разрез "Бунгурский" -->
+
+                  <li class="list"><a href="#">ООО Разрез "Бунгурский"</a>
+                     <ul class="items">
+                        <li class="list"><a href="#">Разрез "Бунгурский"</a>
+                           <ul class="items">
+                              <li> <a href="drawing1.html" id="wiev-object">Просмотр объекта</a></li>
+                           </ul>
+                        </li>
+                     </ul>
                </ul>
-
-
             </li>
          </ul>
+
+
          </li>
+      </ul>
+      </li>
       </ul>
 
    </div>
@@ -1385,11 +1385,13 @@
       Меню
    </div>
 
-   
+
 
    <div id="map">
       <img src="img/map/karta-ko.jpg" alt="" class="map-obj main-map">
    </div>
+
+   
 
 
 
